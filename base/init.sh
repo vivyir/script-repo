@@ -54,6 +54,7 @@ if [ "$choice" = "yes" ]; then
 	print > "$config"
 
 	echo "$TESTCONF" > "$config"
+	chmod u+x "./main.sh"
 	cp "./main.sh" "$dir"
 	echo "alias bare='"$dir"/main.sh'" >> "$HOME""/.bashrc"
 	bash
