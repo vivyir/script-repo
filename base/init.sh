@@ -31,8 +31,8 @@ if [ "$1" = "dep" ]; then
 	# 2 - make a makeshift searching function
 	# </TO-DO>
 
-	wget "https://raw.github.usercontent.com/"$migrateableName"/"$migrateableRepo"/"$migrateableBranch"/"$migrateableDirName"/main.sh"
-	wget "https://raw.github.usercontent.com/"$migrateableName"/"$migrateableRepo"/"$migrateableBranch"/"$migrateableDirName"/scriptrepo-bare.conf"
+	wget "https://raw.githubusercontent.com/"$migrateableName"/"$migrateableRepo"/"$migrateableBranch"/"$migrateableDirName"/main.sh"
+	wget "https://raw.githubusercontent.com/"$migrateableName"/"$migrateableRepo"/"$migrateableBranch"/"$migrateableDirName"/scriptrepo-bare.conf"
 fi
 
 if [ "$choice" = "yes" ]; then
