@@ -2,7 +2,7 @@
 
 source ""$HOME"/.scriptrepo-bare/scriptrepo-bare.conf"
 echo "launched"
-print ">> if you want dependancies enter y (case sensitive) : "
+printf ">> if you want dependancies enter y (case sensitive) : "
 read dep
 if [ "$dep" = "y" ]; then
     echo ">> good dep"
@@ -15,7 +15,7 @@ wget "https://raw.githubusercontent.com/"$gitname"/"$targetrepo"/"$branch"/test/
 mainSh=""$mainPath"/main.sh"
 chmod u+x "$mainSh"
 
-print ">> Do you want to alias this as \"baretester\" (not recommended as this is meant to only test and is not helpful) (y/n) (case sensitive) : "
+printf ">> Do you want to alias this as \"baretester\" (not recommended as this is meant to only test and is not helpful) (y/n) (case sensitive) : "
 read aliasing
 if [ "$aliasing" = "y" ]; then
     echo "alias baretester='"$mainSh"'" >> ""$HOME"/.bashrc"
