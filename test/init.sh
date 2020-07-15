@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Made by phnixir with love <3
+
 source ""$HOME"/.scriptrepo-bare/scriptrepo-bare.conf"
 echo "launched"
 printf ">> if you want dependancies enter y (case sensitive) : "
