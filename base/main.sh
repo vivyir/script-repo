@@ -43,8 +43,9 @@ elif [ "$1" = "get" ]; then
 	mkdir "$wherePut"
 	wget "$giturl" -P "$wherePut"
 	chmod u+x ""$wherePut"/init.sh"
-	echo "Launching the init.sh with dep parameter..."
-	""$wherePut"/init.sh dep"
+	echo "Launching the init.sh..."
+	# now all the init.sh's must get the dependancies without the parameter... piss
+	""$wherePut"/init.sh"
 elif [ "$1" = "getonly" ]; then
 	targett="$2"
 	echo "$targett"
