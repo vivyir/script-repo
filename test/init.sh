@@ -11,7 +11,7 @@ else
 fi
 
 mainPath=""$installpath"/test"
-wget "https://raw.githubusercontent.com/"$gitname"/"targetrepo"/"$branch"/test/main.sh" -P "$mainPath"
+wget "https://raw.githubusercontent.com/"$gitname"/"$targetrepo"/"$branch"/test/main.sh" -P "$mainPath"
 mainSh=""$mainPath"/main.sh"
 chmod u+x "$mainSh"
 
