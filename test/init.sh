@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "launched"
-if [ "$1" = "dep" ]; then
+print "if you want dependancies enter y (case sensitive) : "
+read dep
+if [ "$dep" = "y" ]; then
     echo "good dep"
 else
     echo "bad dep"
