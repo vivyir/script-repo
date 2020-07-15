@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Made by phnixir with love <3
+
 source ""$HOME"/.scriptrepo-bare/scriptrepo-bare.conf"
 if [ "$1" = "conf" ]; then
 	if [ "$2" = "set" ]; then
