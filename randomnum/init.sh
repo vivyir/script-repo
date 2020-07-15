@@ -7,6 +7,7 @@ echo "launched"
 printf ">> This is an standalone script"
 
 mainPath=""$installpath"/randomnum"
+sleep 2s
 wget "https://raw.githubusercontent.com/"$gitname"/"$targetrepo"/"$branch"/randomnum/main.sh" -P "$mainPath"
 mainSh=""$mainPath"/main.sh"
 chmod u+x "$mainSh"
