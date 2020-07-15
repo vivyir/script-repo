@@ -45,6 +45,8 @@ while getopts ":o :h :f: :m:" opt; do
 			echo "-f [PATH] - to make from that file (full path only)" >&2
 			echo "-m [MSG] - to make from a msg" >&2
 			echo "always use \"-o\" when piping with this" >&2
+			echo "if you give a non existing path to it it will interpret it as standalone text" >&2
+			echo "which is prepended with F- so dont think you tricked it, DEBIL XAXAXA"
 			echo "okay bye now" >&2
 			exit 1
 			;;
