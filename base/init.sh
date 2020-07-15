@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Made by phnixir with love <3
+
 cd $(dirname "$0")
 
 migrateableName="phnixir"
