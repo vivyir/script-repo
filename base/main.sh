@@ -42,6 +42,7 @@ elif [ "$1" = "get" ]; then
 	wherePut=""$installpath"/"$targett""
 	mkdir "$wherePut"
 	wget "$giturl" -P "$wherePut"
+	chmod u+x ""$wherePut"/init.sh"
 	echo "Launching the init.sh with dep parameter..."
 	""$wherePut"/init.sh dep"
 elif [ "$1" = "getonly" ]; then
