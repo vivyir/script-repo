@@ -163,7 +163,7 @@ elif [ "$1" = "search" ]; then
 elif [ "$1" = "getindex" ]; then
 
 	rm ""$HOME"/.scriptrepo-bare/index.bare"
-	wget "https://raw.githubusercontent.com/"$gitname"/"$targetrepo"/"$branch"/index.bare" -P ""$HOME"/.scriptrepo-bare/index.bare"
+	wget "https://raw.githubusercontent.com/"$gitname"/"$targetrepo"/"$branch"/index.bare" -P ""$HOME"/.scriptrepo-bare/"
 fi
 
 # End!
