@@ -13,10 +13,10 @@ echo ""
 read cord
 echo ""
 
-mkdir ".hash" 2>/dev/null
-hashdir=".hash"
-gzipp=$(echo "$cord" | tr 'a-z' 'A-Z')
 cwd=$(pwd)
+mkdir ""$cwd"/.hash" 2>/dev/null
+hashdir=""$cwd"/.hash"
+gzipp=$(echo "$cord" | tr 'a-z' 'A-Z')
 filee=""$cwd"/"$filename""
 logfilee=""$cwd""/"""$hashdir"/"".rot73.log""
 hashfilee=""$cwd""/"""$hashdir"/"".""$filename".sha256"
