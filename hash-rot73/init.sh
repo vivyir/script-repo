@@ -5,7 +5,7 @@
 source ""$HOME"/.scriptrepo-bare/scriptrepo-bare.conf"
 echo "launched"
 
-mainPath=""$installpath"/test"
+mainPath=""$installpath"/hash-rot73"
 mainSh=""$mainPath"/main.sh"
 
 printf ">> This script needs RHash and GZip if you do not have those please Ctrl-c, install them, and run this again at "$mainPath"/init.sh, otherwise enter (yes) : "
