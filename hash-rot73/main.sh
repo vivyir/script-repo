@@ -21,6 +21,10 @@ filee=""$cwd"/"$filename""
 logfilee=""$cwd""/"""$hashdir"/"".rot73.log""
 hashfilee=""$cwd""/"""$hashdir"/"".""$filename".sha256"
 critfilee=""$cwd""/"""$hashdir"/"dontDeleteThisDir.please"
+
+touch "$logfilee"
+touch "$hashfilee"
+
 printf "" > "$critfilee"
 
 if [ "$gzipp" = "C" ]; then
