@@ -1,3 +1,4 @@
 base - all of the files for bare - By phnixir
 test - tester for bare - By phnixir
 randomnum - create random numbers from stuff - By phnixir
+hash-rot73 - rotate text and then gzip them by doing a rot13 first then rot47 then rot13 and reverse for decrypting - By phnixir
