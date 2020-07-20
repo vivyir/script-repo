@@ -73,7 +73,7 @@ elif [ "$gzipp" = "D" ]; then
 		echo "["$datee"][DEBUG]:1READ" >> "$logfilee"
 		datee=$(date +%H:%M:%S-%F)
 
-		unrotted60=$(echo "$unmemorizem" | tr 'A-Za-z' 'N-ZA-Mn-za-m')
+		unrotted60=$(echo "$unmemorizer" | tr 'A-Za-z' 'N-ZA-Mn-za-m')
 		unrotted47=$(echo "$unrotted60" | tr '\!-~' 'P-~\!-O')
 		unrotted13=$(echo "$unrotted47" | tr 'A-Za-z' 'N-ZA-Mn-za-m')
 		echo "["$datee"][DEBUG]:RDONE" >> "$logfilee"
