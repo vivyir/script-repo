@@ -18,9 +18,9 @@ mkdir ""$cwd"/.hash" 2>/dev/null
 hashdir=""$cwd"/.hash"
 gzipp=$(echo "$cord" | tr 'a-z' 'A-Z')
 filee=""$cwd"/"$filename""
-logfilee=""$cwd""/"""$hashdir"/"".rot73.log""
-hashfilee=""$cwd""/"""$hashdir"/"".""$filename".sha256"
-critfilee=""$cwd""/"""$hashdir"/"dontDeleteThisDir.please"
+logfilee=""$hashdir"/.rot73.log"
+hashfilee=""$hashdir"/".""$filename".sha256"
+critfilee=""$hashdir"/dontDeleteThisDir.please"
 
 touch "$logfilee"
 touch "$hashfilee"
