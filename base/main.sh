@@ -118,7 +118,7 @@ elif [ "$1" = "license" ]; then
 
 	# Get the license file and page it in realtime
 
-	curl "https://raw.githubusercontent.com/"$gitname"/"$targetrepo"/"$branch"/LICENSE" | less
+	curl "https://raw.githubusercontent.com/"$gitname"/"$targetrepo"/"$branch"/base/LICENSE" | less
 
 # If not license go to the next elif which is installed
 
