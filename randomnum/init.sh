@@ -4,7 +4,7 @@
 
 source ""$HOME"/.scriptrepo-bare/scriptrepo-bare.conf"
 echo "launched"
-printf ">> This is an standalone script"
+printf ">> This is script needs the program BC. Do not run until you installed BC"
 
 mainPath=""$installpath"/randomnum"
 sleep 2s
